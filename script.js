@@ -14,7 +14,8 @@ document.getElementById("add-button").addEventListener("click", function () {
   }
 });
 
-/* add event listener to the input that will listen for a keypress
+/* 
+   add event listener to the input that will listen for a keypress
    when Enter is pressed, add the item to the list
 */
 document
