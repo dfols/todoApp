@@ -42,30 +42,6 @@ parentElement.appendChild(elementToAdd);
 parentElement.removeChild(elementToRemove);
 ```
 
-document.getElementById("ID") selecting an element on the page
-
-document.getElementById("ID").value select the content of an input
-
-document.getElementById("ID").innerText select the content of
-span/headers/p/buttons/etc.
-
-let element = document.createElement("element") creates HTML element
-
-element.addEventListener("click", function(){ // do this }) "watch" / "listen"
-for an action (click, change, keypress) and then performs the action you want in
-the function
-
-element.classList.add("class") adds class to element
-
-element.classList.toggle("class") add the class if the class isn't present
-removes the class if it is present
-
-element.type = "type" adds a type to an element
-
-element.appendChild(elementToAdd) adds element as a child
-
-element.removeChild(elementToRemove) removes child element
-
 ### Steps to create a todo list
 
 1. Create directory + create github repo
