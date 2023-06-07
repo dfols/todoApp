@@ -20,7 +20,8 @@ const innerText = document.getElementById("ID").innerText;
 // Creates an HTML element
 const newElement = document.createElement("element");
 
-// "Watch" / "listen" for an action (click, change, keypress) and then perform the action you want in the function
+// "Watch" / "listen" for an action (click, change, keypress)
+// perform the action you want in the function
 element.addEventListener("click", function () {
   // do this
 });
