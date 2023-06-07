@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #eeeeee;
+}
+header {
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+#list {
+  list-style-type: none;
+  width: 300px;
+  padding: 0px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.delete-button {
+  margin-left: auto;
+}
